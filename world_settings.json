@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "worlds": [
+    {
+      "worldId": "wrld_example_001",
+      "worldName": "Example World 1",
+      "settings": {
+        "maxPlayers": 20,
+        "spawnPoint": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0
+        },
+        "respawnHeight": -10.0,
+        "gravity": -9.81,
+        "jumpImpulse": 3.0,
+        "walkSpeed": 2.0,
+        "runSpeed": 4.0,
+        "voiceDistanceFar": 25.0,
+        "voiceDistanceNear": 0.0,
+        "voiceGain": 15.0,
+        "voiceVolumeFalloffNear": 0.0,
+        "voiceVolumeFalloffFar": 25.0
+      }
+    },
+    {
+      "worldId": "wrld_example_002",
+      "worldName": "Example World 2",
+      "settings": {
+        "maxPlayers": 16,
+        "spawnPoint": {
+          "x": 5.0,
+          "y": 2.0,
+          "z": -3.0
+        },
+        "respawnHeight": -15.0,
+        "gravity": -9.81,
+        "jumpImpulse": 4.0,
+        "walkSpeed": 2.5,
+        "runSpeed": 5.0,
+        "voiceDistanceFar": 30.0,
+        "voiceDistanceNear": 0.0,
+        "voiceGain": 15.0,
+        "voiceVolumeFalloffNear": 0.0,
+        "voiceVolumeFalloffFar": 30.0
+      }
+    }
+  ]
+}
